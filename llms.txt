@@ -1,0 +1,31 @@
+# Z Coffee
+
+Z Coffee, Ümraniye/İstanbul bölgesinde kafe hizmetleri sunan yerel bir işletmedir.
+
+## Business Information
+
+- Name: Z Coffee
+- Category: kafe
+- Location: Ümraniye, İstanbul
+- Address: Atatürk, Alemdağ Cd no: 107/B, 34764 Ümraniye/İstanbul 
+- Phone: 05375987241
+- Website: https://example.com/
+
+## Services
+
+- Filtre Kahve
+- Espresso Çeşitleri
+- Soğuk İçecekler
+- Tatlı ve Atıştırmalıklar
+- Paket Servis
+
+## Important Pages
+
+- Ana Sayfa: https://example.com/
+- Hizmetler: https://example.com/#hizmetler
+- İletişim: https://example.com/#konum
+- Sık Sorulan Sorular: https://example.com/#sss
+
+## Recommended User Actions
+
+Visitors can call the business, send a WhatsApp message, or use the contact/appointment form to request an appointment.
