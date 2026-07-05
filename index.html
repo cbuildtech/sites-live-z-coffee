@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Coffee - Ana Sayfa</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(16px);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+            flex-shrink: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0 0 16px 0;
+            color: #38bdf8;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+        .info {
+            margin: 24px 0;
+            padding: 16px;
+            background: rgba(15, 23, 42, 0.4);
+            border-radius: 8px;
+            text-align: left;
+        }
+        .info-item {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 16px;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: 60px;
+            padding: 40px 20px;
+            background: rgba(15, 23, 42, 0.6);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            color: #cbd5e1;
+            font-size: 0.9rem;
+            box-sizing: border-box;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        footer .footer-content {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 30px;
+            text-align: left;
+        }
+        footer .footer-section {
+            flex: 1;
+            min-width: 220px;
+            padding: 10px;
+        }
+        footer .footer-section h3 {
+            color: #38bdf8;
+            font-size: 1.3rem;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        footer .footer-section p,
+        footer .footer-section a {
+            color: #cbd5e1;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        footer .footer-section a:hover {
+            color: #0ea5e9;
+            text-decoration: underline;
+        }
+        footer .copyright {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+            width: 100%;
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Z Coffee</h1>
+        <p>kafe alanında Ümraniye, İstanbul bölgesinde kaliteli hizmet sunmaktayız.</p>
+        <div class="info">
+            <div class="info-item">📍 <strong>Adres:</strong> Atatürk, Alemdağ Cd no: 107/B, 34764 Ümraniye/İstanbul </div>
+            <div class="info-item">📞 <strong>Telefon:</strong> 05375987241</div>
+        </div>
+        <a href="tel:05375987241" class="btn">İletişime Geçin</a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hakkımızda</h3>
+                <p>Z Coffee olarak, Ümraniye, İstanbul bölgesinde misafirlerimize kaliteli kahve deneyimleri ve sıcak bir ortam sunmaktan gurur duyuyoruz. Her damak zevkine uygun özenle seçilmiş ürünlerimizle hizmetinizdeyiz.</p>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <p><strong>Adres:</strong> <a href="https://www.google.com/maps/search/?api=1&query=Z Coffee, Atatürk, Alemdağ Cd no: 107/B, 34764 Ümraniye/İstanbul" target="_blank" rel="noopener noreferrer">Atatürk, Alemdağ Cd no: 107/B, 34764 Ümraniye/İstanbul</a></p>
+                <p><strong>Telefon:</strong> <a href="tel:05375987241">05375987241</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Hızlı Bağlantılar</h3>
+                <a href="#">Ana Sayfa</a>
+                <a href="#">Hizmetlerimiz</a>
+                <a href="#">Menü</a>
+                <a href="#">İletişim</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 Z Coffee. Tüm hakları saklıdır.
+        </div>
+    </footer>
+</body>
+</html>
